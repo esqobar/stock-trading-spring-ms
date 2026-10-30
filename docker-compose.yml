@@ -9,9 +9,9 @@ services:
     image: postgres:16-alpine
     container_name: postgres-trading
     environment:
-      POSTGRES_USER:
-      POSTGRES_PASSWORD:
-      POSTGRES_DB:
+      POSTGRES_USER: your own
+      POSTGRES_PASSWORD:  your own
+      POSTGRES_DB: your own
     ports:
       - "5432:5432"
     volumes:
